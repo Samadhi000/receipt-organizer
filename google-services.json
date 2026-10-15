@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "773198179529",
+    "project_id": "receipt-organizer-14b57",
+    "storage_bucket": "receipt-organizer-14b57.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773198179529:android:2dc22ab50a48246dd07118",
+        "android_client_info": {
+          "package_name": "com.samadhi.spencepal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRaspOH3FKXg8ZIZSyrODSmDiEETn1DGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
