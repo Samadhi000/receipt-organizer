@@ -14,10 +14,10 @@ sync. Built with React Native + Expo (TypeScript).
 - **Scan a receipt** from the camera or gallery and extract text **100% on-device** (no cloud OCR).
 - **Image enhancement** (upscale + grayscale/contrast) so blurry or low-contrast bills read better.
 - **Smart parser** that reconstructs rows from OCR bounding boxes, handles two-line item layouts, and validates the total against the sum of items.
-- **Validation layer** — edit item names/prices, add missing items, and fix the total before saving.
+- **Validation layer** - edit item names/prices, add missing items, and fix the total before saving.
 - **Automatic categorization** of items (fuzzy matching) and grouping by shop.
 - **Dashboard** with total spend, receipts/items counts, a category donut chart, and top shops.
-- **Reports & insights** — weekly/monthly breakdowns and simple anomaly detection.
+- **Reports & insights** - weekly/monthly breakdowns and simple anomaly detection.
 - **Local-first storage** (SQLite) with optional **Firebase Auth + Firestore sync** per user.
 - **Liquid-glass UI** with a custom component system and the Inter typeface.
 
