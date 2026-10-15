@@ -9,7 +9,7 @@ sync. Built with React Native + Expo (TypeScript).
 
 ---
 
-## ✨ Features
+## Features
 
 - **Scan a receipt** from the camera or gallery and extract text **100% on-device** (no cloud OCR).
 - **Image enhancement** (upscale + grayscale/contrast) so blurry or low-contrast bills read better.
@@ -23,7 +23,7 @@ sync. Built with React Native + Expo (TypeScript).
 
 ---
 
-## 🧱 Tech stack
+## Tech stack
 
 | Area | Technology |
 |------|------------|
@@ -40,7 +40,7 @@ sync. Built with React Native + Expo (TypeScript).
 
 ---
 
-## ✅ Prerequisites
+## Prerequisites
 
 Install these **before** running the app. Versions in **bold** are what this project
 was built and tested with.
@@ -49,7 +49,7 @@ was built and tested with.
 - **Node.js 20 LTS or newer** (tested on **v24.16.0**)
 - **npm 10+** (tested on **v11.13.0**)
 
-### 2. Java JDK — ⚠️ version matters
+### 2. Java JDK — version matters
 - Use **JDK 17** (recommended by Expo) or **JDK 21**. This project was built with **OpenJDK 21**.
 - **Do NOT use JDK 24 or 25** — the native build fails (`configureCMakeDebug` → *"restricted method in java.lang.System"*).
 
@@ -90,7 +90,7 @@ Or use a **physical Android phone** with **Developer options → USB debugging**
 
 ---
 
-## 🔥 Firebase setup
+## Firebase setup
 
 The app ships with a working Firebase config (`src/services/firebaseConfig.ts` and
 `google-services.json`) for the project `receipt-organizer-14b57`. The API key there
@@ -109,7 +109,7 @@ The app still runs fully offline without an account — tap **"Continue without 
 
 ---
 
-## 🚀 Run the app
+## Run the app
 
 ```bash
 # 1. Clone
@@ -171,7 +171,7 @@ receipt-organizer/
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 | Problem | Fix |
 |--------|-----|
@@ -185,7 +185,7 @@ receipt-organizer/
 
 ---
 
-## 📝 Notes
+## Notes
 
 - On-device OCR means receipts never leave the phone; Firebase sync is opt-in per account.
 - Tested on **macOS (Apple Silicon)** with a **Pixel 6a** emulator.
