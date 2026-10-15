@@ -2,10 +2,10 @@
 
 An offline-first Android app that scans paper receipts, reads them with on-device
 OCR, categorizes each line item, groups spending by shop, and turns it all into
-weekly/monthly reports and spending insights — with optional Firebase account
+weekly/monthly reports and spending insights - with optional Firebase account
 sync. Built with React Native + Expo (TypeScript).
 
-> M.Sc. IT · SE5070 Enterprise Mobility — individual coursework.
+> M.Sc. IT · SE5070 Enterprise Mobility - individual coursework.
 
 ---
 
